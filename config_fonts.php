@@ -81,6 +81,55 @@ $this->fonttrans = array(
  */
 
 $this->fontdata = array(
+        /* dnf */
+       "pt_serif" => array(
+         'R' => "PT_Serif-Regular.ttf",
+         'B' => "PT_Serif-Bold.ttf",
+         'I' => "PT_Serif-Italic.ttf",
+         'BI' => "PT_Serif-BoldItalic.ttf",
+       ),
+       "opensans" => array(
+         'R' => "OpenSans-Regular.ttf",
+         'B' => "OpenSans-Bold.ttf",
+         'I' => "OpenSans-Italic.ttf",
+         'BI' => "OpenSans-BoldItalic.ttf",
+       ),
+       "roboto" => array(
+         'R' => "Roboto-Regular.ttf",
+         'B' => "Roboto-Bold.ttf",
+         'I' => "Roboto-Italic.ttf",
+         'BI' => "Roboto-BoldItalic.ttf",
+       ),
+       "roboto-medium" => array(
+         'R' => "Roboto-Medium.ttf",
+         'I' => "Roboto-MediumItalic.ttf",
+       ),
+
+       /* mikrotext */
+        "attention" => array(
+                'R' => "AttentionStd.ttf",
+                'B' => "AttentionStd-Bold.ttf",
+                ),
+        "attentionbold" => array(
+                'R' => "AttentionStd-Bold.ttf",
+                ),
+        "pt_serifregular" => array(
+                'R' => "PTF55F-webfont.ttf",
+                'B' => "PTF75F-webfont.ttf",
+                'I' => "PTF56F-webfont.ttf",
+                'BI' => "PTF76F-webfont.ttf",
+                ),
+        "pt_serifbold" => array(
+                'R' => "PTF75F-webfont.ttf",
+                ),
+        "pt_serif_italic" => array(
+                'R' => "PTF56F-webfont.ttf",
+                ),
+        "pt_serifbold_italic" => array(
+                'R' => "PTF76F-webfont.ttf",
+                ),
+
+        /* regular mpdf fonts */
 	"dejavusanscondensed" => array(
 		'R' => "DejaVuSansCondensed.ttf",
 		'B' => "DejaVuSansCondensed-Bold.ttf",
